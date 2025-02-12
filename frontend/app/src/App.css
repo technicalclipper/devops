@@ -1,38 +1,98 @@
-.App {
+body {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.loginbg{
+  background-image: url("/public/images/loginbg.jpg");
+  width:100%;
+  height:100vh;
+  background-size: cover; 
+  background-position: center; 
+
+}
+.logintitle{
+  color:white;
+  font-size: 100px;
   text-align: center;
+  position: relative;
+  top:30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logincontainer{
+  background-color: white;
+  width:45%; 
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height:450px;
+  border-radius: 40px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-image: url("/public/images/logininner.jpg");
+  background-color: rgba(0, 0, 0, 0.6); 
+  background-blend-mode: overlay; 
+  border: 3px solid white;
+  gap:20px;
+
+}
+.logincenter{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logininput {
+  width: 60%;
+  background-color: transparent;  
+  border: none;  
+  border-bottom: 2px solid white;
+  color: white;  
+  height: 50px;
+  font-family: "Bebas Neue", serif;  
+  font-weight: 400;  
+  font-style: normal;  
+  font-size: 30px;  
+  outline:none;
 }
 
-.App-link {
-  color: #61dafb;
+.logininput::placeholder {
+  color: white;  
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.forgotpassword{
+  font-size: 30px;
+  color:white;
+  position: relative;
+  right:105px;
+
+}
+.login{
+  font-size: 30px;
+  color:black;
+  background-color: white;
+  width:35%;
+  height:50px;
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.googlelogin{
+  height:50px;
+}
+.or{
+  width:60%;
+  
+}
+.innerlogin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:7px;
+  margin-top: 10px;
+  width: 100%;
 }
