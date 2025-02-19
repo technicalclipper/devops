@@ -1,0 +1,41 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40%;
+    font-size: 40px;
+  }
+  
+  .header-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
+  }
+  .header-links{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    font-size:35px;
+    color:#6F6565;
+  }
+  .header-loginbtn{
+    background-color: #2B2727;
+    color:white;
+    width:150px;
+    height:60px;
+    border-radius: 20px;
+    display:grid;
+    place-items: center;
+  }
+  
+  .header-logo{
+    width:90px;
+    height:90px;
+    border-radius: 45px;
+  }
